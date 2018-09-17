@@ -1,0 +1,35 @@
+#cover , #two{
+    background-color:#606E70;
+}
+
+#one , #three{
+    background-color:#A9E9F2;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    grid-template-rows: 300px 200px;
+    grid-gap: 8px;
+    margin: 15%;
+}
+
+#cover {
+    grid-column: 1/-1;
+}
+
+#one {
+    grid-column:  1/2;
+}
+
+#two {
+    grid-column:  2/3;
+}
+
+#three {
+    grid-column:  3/4;
+}
+
+.menu a{
+    color:white;
+}
